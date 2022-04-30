@@ -81,6 +81,15 @@ form{
     border-radius: 50%;
 }
 
+.form-container input:last-child{
+    padding-right: 0;
+}
+
+.form-container label:last-child{
+    width: 0;
+    padding-right: 0;
+}
+
 .form-container input:hover{
     background-color: var(--light-grey);
 }
@@ -91,7 +100,7 @@ form{
 
 .form-container label{
     position: relative;
-    transform: translate(-1.85rem, .7rem)
+    transform: translate(-1.92rem, .7rem)
 }
 
 #submit-button{
