@@ -16,7 +16,7 @@
   <main>
     <!-- Rating state start -->
     <div class="main-container">
-      <div class="image-container"><img src="images/icon-star.svg" alt="star-icon"></div>
+      <div class="star-image-container"><img src="images/icon-star.svg" alt="star-icon"></div>
       <div class="text-container">
         <h2>How did we do?</h2>
         <p>Please let us know how we did with your support request. All feedback is appreciated
@@ -41,21 +41,21 @@
       </form>
     </div>
     <!-- Rating state end -->
-    <div class="hidden-container">
-
-    </div>
     <!-- Thank you state start -->
-
-    <!-- You selected x out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support,
-  don’t hesitate to get in touch! -->
-
+    <div class="main-container hidden">
+      <div class="image-container">
+        <img src="images/illustration-thank-you.svg" alt="thank-you-illustration">
+      </div>
+      <div class="selected-stars-text">
+        <p>You selected <span id="selected-stars"></span> out of 5</p>
+      </div>
+      <div class="text-container">
+        <h2>Thank you!</h2>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+      </div>
+    </div>
     <!-- Thank you state end -->
-
-
   </main>
   <footer>
     <div class="attribution">

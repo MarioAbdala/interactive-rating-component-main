@@ -37,7 +37,7 @@ main{
     background-color: var(--dark-blue);
 }
 
-.image-container{
+.star-image-container{
     padding: .5rem;
     border-radius: 50%;
     background-color: var(--medium-grey);
@@ -110,7 +110,13 @@ form{
     border-radius: 2rem;
 }
 
-.hidden-container{
+.selected-stars-text{
+    padding: .25rem;
+    border-radius: 2rem;
+    background-color: var(--medium-grey);
+}
+
+.hidden{
     display: none;
 }
 
