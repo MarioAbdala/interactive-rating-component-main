@@ -103,6 +103,10 @@ form{
 }
 
 .form-container input:checked{
+    background-color: var(--medium-grey);
+}
+
+.form-container input:active{
     background-color: var(--orange);
 }
 
@@ -114,6 +118,11 @@ form{
     padding: 0.5rem 0;
     border: none;
     border-radius: 2rem;
+}
+
+#submit-button:active{
+    background-color: var(--white);
+    color: var(--orange);
 }
 
 .image-container{
