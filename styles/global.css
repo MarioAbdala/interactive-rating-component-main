@@ -71,7 +71,19 @@ form{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
+}
+
+.labels{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labels label{
+    padding: 1rem;
+    width: 2.5rem;
+    transform: translateY(-2.75rem)
 }
 
 .form-container input{
@@ -79,15 +91,6 @@ form{
     padding: 1.25rem;
     background-color: var(--medium-grey);
     border-radius: 50%;
-}
-
-.form-container input:last-child{
-    padding-right: 0;
-}
-
-.form-container label:last-child{
-    width: 0;
-    padding-right: 0;
 }
 
 .form-container input:hover{
@@ -98,13 +101,12 @@ form{
     background-color: var(--orange);
 }
 
-.form-container label{
-    position: relative;
-    transform: translate(-1.92rem, .7rem)
-}
-
 #submit-button{
     width: 100%;
+}
+
+.hidden-container{
+    display: none;
 }
 
 footer{
