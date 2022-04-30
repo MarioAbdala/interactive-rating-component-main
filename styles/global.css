@@ -3,6 +3,7 @@
     --white: hsl(0, 0%, 100%);
     --light-grey: hsl(217, 12%, 63%);
     --medium-grey: hsl(216, 12%, 54%);
+    --transparent-medium-grey: hsla(216, 12%, 54%, 0.178);
     --dark-blue: hsl(213, 19%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
     font-family: 'Overpass', sans-serif;
@@ -43,7 +44,7 @@ main{
 .star-image-container{
     padding: 0.8rem;
     border-radius: 50%;
-    background-color: var(--medium-grey);
+    background-color: var(--transparent-medium-grey);
     width: fit-content;
     display: flex;
     justify-content: center;
@@ -93,7 +94,7 @@ form{
 .form-container input{
     appearance: none;
     padding: 1.5rem;
-    background-color: var(--medium-grey);
+    background-color: var(--transparent-medium-grey);
     border-radius: 50%;
 }
 
@@ -133,7 +134,7 @@ form{
     width: fit-content;
     padding: .5rem 1rem;
     border-radius: 2rem;
-    background-color: var(--medium-grey);
+    background-color: var(--transparent-medium-grey);
     margin: auto 0;
     display: flex;
     justify-content: center;
