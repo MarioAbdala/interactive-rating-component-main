@@ -15,14 +15,14 @@
 <body>
   <main>
     <!-- Rating state start -->
-    <div class="main-container">
+    <div class="main-container" id="rating-state">
       <div class="star-image-container"><img src="images/icon-star.svg" alt="star-icon"></div>
       <div class="text-container">
         <h2>How did we do?</h2>
         <p>Please let us know how we did with your support request. All feedback is appreciated
           to help us improve our offering!</p>
       </div>
-      <form action="">
+      <form action="#">
         <div class="form-container">
           <input type="radio" name="stars" id="one">
           <input type="radio" name="stars" id="two">
@@ -42,7 +42,7 @@
     </div>
     <!-- Rating state end -->
     <!-- Thank you state start -->
-    <div class="main-container hidden">
+    <div class="main-container hidden" id="thank-you-state">
       <div class="image-container">
         <img src="images/illustration-thank-you.svg" alt="thank-you-illustration">
       </div>
@@ -63,6 +63,7 @@
         Coded by <a href="https://github.com/MarioAbdala" target="_blank">Mario Abdala</a>.</p>
     </div>
   </footer>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>

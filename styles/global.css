@@ -32,6 +32,7 @@ main{
 .main-container{
     color: var(--white);
     width: 40%;
+    height: 22.5rem;
     border-radius: 1rem;
     padding: 2rem;
     background-color: var(--dark-blue);
@@ -110,10 +111,19 @@ form{
     border-radius: 2rem;
 }
 
+.image-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
 .selected-stars-text{
     padding: .25rem;
     border-radius: 2rem;
     background-color: var(--medium-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hidden{
