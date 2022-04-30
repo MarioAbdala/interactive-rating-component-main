@@ -81,6 +81,19 @@ form{
     border-radius: 50%;
 }
 
+.form-container input:hover{
+    background-color: var(--light-grey);
+}
+
+.form-container input:checked{
+    background-color: var(--orange);
+}
+
+.form-container label{
+    position: relative;
+    transform: translate(-1.85rem, .7rem)
+}
+
 #submit-button{
     width: 100%;
 }
