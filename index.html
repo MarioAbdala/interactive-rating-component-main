@@ -15,15 +15,23 @@
 <body>
   <main>
     <!-- Rating state start -->
-    <div class="container">
-      How did we do?
-
-      Please let us know how we did with your support request. All feedback is appreciated
-      to help us improve our offering!
-
-      1 2 3 4 5
-
-      Submit
+    <div class="main-container">
+      <div class="image-container"><img src="images/icon-star.svg" alt="star-icon"></div>
+      <div class="text-container">
+        <h2>How did we do?</h2>
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+      </div>
+      <form action="">
+        <div class="form-container">
+          <input type="radio" name="one" id="one">
+          <input type="radio" name="two" id="two">
+          <input type="radio" name="three" id="three">
+          <input type="radio" name="four" id="four">
+          <input type="radio" name="five" id="five">
+        </div>
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
     </div>
     <!-- Rating state end -->
 
