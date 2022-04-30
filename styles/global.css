@@ -88,3 +88,15 @@ form{
 footer{
     height: 5vh;
 }
+
+footer div p{
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--orange)
+}
