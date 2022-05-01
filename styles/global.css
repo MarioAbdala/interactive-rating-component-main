@@ -91,6 +91,10 @@ form{
     transform: translate(.2rem ,-3rem)
 }
 
+.labels label:first-child{
+    transform: translate(.335rem ,-3rem)
+}
+
 .form-container input{
     appearance: none;
     padding: 1.5rem;
