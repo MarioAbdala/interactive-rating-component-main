@@ -7,21 +7,33 @@ var stars = document.getElementById("selected-stars")
 
 form.addEventListener("submit", e => {
     e.preventDefault;
-    transition();
+    if (radioChecks()){
+        transition();
+    }
 });
 
 function transition(){
-    ratingState.className += " hidden";
-    thankYouState.className = "main-container";
     radioButtons.forEach(radio => {
         if (radio.checked){
             let label = document.querySelector(`label[for='${radio.id}']`)
             stars.innerHTML = label.innerHTML;
-            
+            ratingState.className += " hidden";
+            thankYouState.className = "main-container";
         };
     });
 
 };
 
-console.log(ratingState.className, thankYouState.className, radioButtons);
-
+function radioChecks(){
+    let validation = false;
+    radioButtons.forEach(radio => {
+        if (radio.checked){
+                validation = true;
+        }
+    });
+    if (!validation){
+        alert("Stars not selected.");
+            console.log("Alerted");
+    };
+    return validation;
+}
