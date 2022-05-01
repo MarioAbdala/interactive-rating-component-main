@@ -160,6 +160,9 @@ form{
 
 footer{
     height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer div p{
@@ -172,4 +175,33 @@ footer div p{
 a{
     text-decoration: none;
     color: var(--orange)
+}
+
+@media only screen and (max-width: 425px){
+    .main-container{
+        width: 22.5rem;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    main{
+        height: 90vh;
+    }
+    .main-container{
+        width: 17.5rem;
+    }
+    .form-container input{
+        padding: 1rem;
+    }
+    .labels label{
+        width: 2rem;
+        transform: translate(-0.35rem ,-2.5rem);
+    }
+    .labels label:first-child{
+        transform: translate(-0.175rem ,-2.5rem);
+    }
+    footer{
+        height: 10vh;
+        width: 90%;
+    }
 }
