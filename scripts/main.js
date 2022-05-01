@@ -6,19 +6,19 @@ var stars = document.getElementById("selected-stars")
 
 
 form.addEventListener("submit", e => {
-    e.preventDefault;
+    e.preventDefault();
     if (radioChecks()){
         transition();
     }
 });
 
 function transition(){
+    ratingState.className += " hidden";
+    thankYouState.className = "main-container";
     radioButtons.forEach(radio => {
         if (radio.checked){
             let label = document.querySelector(`label[for='${radio.id}']`)
             stars.innerHTML = label.innerHTML;
-            ratingState.className += " hidden";
-            thankYouState.className = "main-container";
         };
     });
 
@@ -32,7 +32,7 @@ function radioChecks(){
         }
     });
     if (!validation){
-        alert("Stars not selected.");
+        alert("Please select a valid number.");
             console.log("Alerted");
     };
     return validation;
