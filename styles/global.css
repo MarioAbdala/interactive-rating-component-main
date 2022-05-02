@@ -63,7 +63,7 @@ main{
 }
 
 .text-container p{
-    color: var(--light-grey)
+    color: var(--light-grey);
 }
 
 form{
@@ -90,11 +90,15 @@ form{
 .labels label{
     padding: 1rem;
     width: 3rem;
-    transform: translate(.2rem ,-3rem)
+    transform: translate(.2rem ,-3rem);
 }
 
 .labels label:first-child{
-    transform: translate(.335rem ,-3rem)
+    transform: translate(.335rem ,-3rem);
+}
+
+button, label{
+    cursor: pointer;
 }
 
 .form-container input{
@@ -102,6 +106,7 @@ form{
     padding: 1.5rem;
     background-color: var(--transparent-medium-grey);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .form-container input:hover{
