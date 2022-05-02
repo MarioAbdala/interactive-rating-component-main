@@ -30,7 +30,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Rating State](screenshots/interactive-rating-component-desktop-rating-state.png)
+![Desktop Thank You State](screenshots/interactive-rating-component-desktop-thank-you-state.png)
+![Mobile Rating State](screenshots/interactive-rating-component-mobile-rating-state.png)
+![Mobile Thank You State](screenshots/interactive-rating-component-mobile-thank-you-state.png)
 
 ### Links
 
