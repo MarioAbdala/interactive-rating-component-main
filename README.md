@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Trainee Challenge](hhttps://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/interactive-rating-component-Sk8N-npS5)
+- Solution URL: [Frontend Trainee Challenge](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/interactive-rating-component-Sk8N-npS5)
 - Live Site URL: [Interactive rating component](https://marioabdala.github.io/interactive-rating-component-main/)
 
 ## My process
