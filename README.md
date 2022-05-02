@@ -65,4 +65,4 @@ I would like to continue practicing JavaScript and plain CSS. Grid is in my list
 
 ## Acknowledgments
 
-Thanks Emi for introducing me to Frontend Master. I hope this is the first of many challenges I attempt.
+Thanks [Emi](https://github.com/EmQuiroga) for introducing me to Frontend Master. I hope this is the first of many challenges I attempt.
