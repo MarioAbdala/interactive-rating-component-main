@@ -53,6 +53,11 @@ main{
     align-items: center;
 }
 
+h1{
+    font-size: 1.5em;
+    padding-bottom: .5rem;
+}
+
 .text-container{
     padding: 1.5rem 0;
     margin: auto 0;
@@ -111,6 +116,7 @@ button, label{
 
 .form-container input:hover{
     background-color: var(--light-grey);
+    transition: color 200ms;
 }
 
 .form-container input:checked{
@@ -133,6 +139,7 @@ button, label{
 
 #submit-button:hover{
     background-color: var(--light-orange);
+    transition: color 200ms;
 }
 
 #submit-button:active{
