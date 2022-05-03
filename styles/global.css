@@ -203,6 +203,13 @@ a:hover{
     .main-container{
         width: 22.5rem;
     }
+    main{
+        height: 90vh;
+    }
+    footer{
+        width: 90%;
+        height: 10vh;
+    }
 }
 
 @media only screen and (max-width: 375px){
